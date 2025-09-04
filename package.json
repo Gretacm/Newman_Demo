@@ -1,0 +1,16 @@
+{
+  "name": "postmanjsonplaceholder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "api": "npx newman run JSONPlaceHolder.postman_collection.json",
+    "api:env": "npx newman run env_jsonplaceholder.postman_environment.json -e env_jsonplaceholder.postman_environment.json"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "newman": "^6.2.1"
+  }
+}
